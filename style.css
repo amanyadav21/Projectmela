@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #fefefe;
+  background: #ffffff;
 }
 
 /* 🔸 Max-width container */
@@ -40,3 +40,45 @@ body {
   color: #007bff;
   cursor: pointer;
 }
+
+
+.about-div {
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-h1 {
+    text-align: start;
+    border-left: 2px solid #002aff;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-left: 10px;
+    line-height: 30px;
+}
+
+.about-btn {
+    display: flex;
+    margin-top: 40px;
+    gap: 40px;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.btn1, .btn2 {
+    padding: 9px 20px;
+    border-radius: 5px;
+    border: 2px solid #002aff;
+    font-size: medium;
+}
+
+.btn1 {
+    background-color: #002aff;
+    color: white;
+}
+
+.btn1, .btn2:hover {
+    cursor: pointer;
+}
+
