@@ -33,11 +33,12 @@ body {
   border-radius: 50px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   transition: all 0.3s ease-in-out;
+  border: 1px solid #002aff;
 }
 
 /* Optional: Hover effect */
 .navbar span:hover {
-  color: #007bff;
+  color: #002aff;
   cursor: pointer;
 }
 
@@ -51,10 +52,10 @@ body {
 .about-h1 {
     text-align: start;
     border-left: 2px solid #002aff;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 400;
     padding-left: 10px;
-    line-height: 30px;
+    line-height: 35px;
 }
 
 .about-btn {
@@ -76,9 +77,98 @@ body {
 .btn1 {
     background-color: #002aff;
     color: white;
+    text-decoration: underline;
+}
+
+.btn2:hover {
+    background-color: #002aff;
+    color: white;
 }
 
 .btn1, .btn2:hover {
     cursor: pointer;
 }
+
+.project-h1 {
+    /* font-size: x-large; */
+    font-size: 5rem;
+    /* font-weight: 900; */
+    /* font-style: italic; */
+    margin-top: 40px;
+    text-align: center;
+    /* border-bottom: 2px solid #002aff; */
+    text-decoration: underline 2px solid #002aff;
+
+    color: rgba(3, 5, 37, 0.153);
+}
+
+
+
+
+/* Project Card */
+.projectlist {
+  background: rgba(255, 255, 255, 0.2); /* transparent effect */
+  backdrop-filter: blur(10px); /* blur effect */
+  border-radius: 50px;
+  padding: 30px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  transition: all 0.3s ease;
+}
+
+/* Project Image */
+#project-img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Title */
+#project-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+
+/* Description */
+#project-p {
+  font-size: 1rem;
+  color: #444;
+  text-align: center;
+  max-width: 700px;
+}
+
+/* Button Container */
+.button-class {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+/* Buttons */
+.button-class button {
+  padding: 10px 20px;
+  background: #222;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.button-class button:hover {
+  background: #555;
+}
+
+
 
