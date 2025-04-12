@@ -1,12 +1,22 @@
 [
     {
       "id": 1,
-      "title": "Portfolio Website",
+      "title": "Digital Clock",
       "description": "A personal portfolio website to showcase skills, projects, and contact info.",
       "techStack": ["HTML", "CSS", "JavaScript"],
       "image": "/Projects/digitalclock/image/digital-project-image.png",
       "github": "https://github.com/amanyadav21/Projectmela/tree/main/Projects/digitalclock",
       "live": "/Projects/digitalclock/index.html",
+      "category": "Frontend"
+    },
+    {
+      "id": 1,
+      "title": "Drum Kits",
+      "description": "Enjoy playing various drum sounds with this engaging drum simulator.",
+      "techStack": ["HTML", "CSS", "JavaScript"],
+      "image": "/Projects/drum-kit/assets/drum.png",
+      "github": "https://github.com/amanyadav21/Projectmela/tree/main/Projects/digitalclock",
+      "live": "/Projects/drum-kit/index.html",
       "category": "Frontend"
     }
   ]
