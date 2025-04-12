@@ -2,7 +2,7 @@
     {
       "id": 1,
       "title": "Digital Clock",
-      "description": "A personal portfolio website to showcase skills, projects, and contact info.",
+      "description": "Choose your preferred time and digitally view the current time in any major locations.",
       "techStack": ["HTML", "CSS", "JavaScript"],
       "image": "/Projects/digitalclock/image/digital-project-image.png",
       "github": "https://github.com/amanyadav21/Projectmela/tree/main/Projects/digitalclock",
@@ -10,12 +10,22 @@
       "category": "Frontend"
     },
     {
-      "id": 1,
+      "id": 2,
       "title": "Drum Kits",
       "description": "Enjoy playing various drum sounds with this engaging drum simulator.",
       "techStack": ["HTML", "CSS", "JavaScript"],
       "image": "/Projects/drum-kit/assets/drum.png",
-      "github": "https://github.com/amanyadav21/Projectmela/tree/main/Projects/digitalclock",
+      "github": "https://github.com/amanyadav21/Projectmela/tree/main/Projects/drum-kit",
+      "live": "/Projects/drum-kit/index.html",
+      "category": "Frontend"
+    }
+    {
+      "id": 3,
+      "title": "Traffic Light",
+      "description": "Enjoy playing various drum sounds with this engaging drum simulator.",
+      "techStack": ["HTML", "CSS", "JavaScript"],
+      "image": "/Projects/drum-kit/assets/drum.png",
+      "github": "https://github.com/amanyadav21/Projectmela/tree/main/Projects/drum-kit",
       "live": "/Projects/drum-kit/index.html",
       "category": "Frontend"
     }
