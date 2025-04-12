@@ -18,15 +18,15 @@
       "github": "https://github.com/amanyadav21/Projectmela/tree/main/Projects/drum-kit",
       "live": "/Projects/drum-kit/index.html",
       "category": "Frontend"
-    }
+    },
     {
       "id": 3,
       "title": "Traffic Light",
-      "description": "Enjoy playing various drum sounds with this engaging drum simulator.",
+      "description": "A beginner-friendly traffic signal system using front-end technologies",
       "techStack": ["HTML", "CSS", "JavaScript"],
-      "image": "/Projects/drum-kit/assets/drum.png",
-      "github": "https://github.com/amanyadav21/Projectmela/tree/main/Projects/drum-kit",
-      "live": "/Projects/drum-kit/index.html",
+      "image": "/Projects/traffic-lights/assets/traffic-project.png",
+      "github": "https://github.com/amanyadav21/Projectmela/tree/main/Projects/traffic-lights",
+      "live": "/Projects/traffic-lights/index.html",
       "category": "Frontend"
     }
   ]
