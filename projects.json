@@ -4,7 +4,7 @@
       "title": "Portfolio Website",
       "description": "A personal portfolio website to showcase skills, projects, and contact info.",
       "techStack": ["HTML", "CSS", "JavaScript"],
-      "image": "https://via.placeholder.com/300x200?text=Portfolio",
+      "image": "https://plus.unsplash.com/premium_photo-1734737431107-d2bb253c5625?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "github": "https://github.com/user/portfolio",
       "live": "https://userportfolio.netlify.app",
       "category": "Frontend"
@@ -14,7 +14,7 @@
       "title": "Weather App",
       "description": "A weather forecast web app using OpenWeatherMap API.",
       "techStack": ["HTML", "CSS", "JavaScript", "API"],
-      "image": "https://via.placeholder.com/300x200?text=WeatherApp",
+      "image": "https://images.unsplash.com/photo-1742201835918-317911ef3825?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "github": "https://github.com/user/weather-app",
       "live": "https://userweatherapp.vercel.app",
       "category": "API"
@@ -24,109 +24,9 @@
       "title": "Blog CMS",
       "description": "A basic blog content management system with admin login.",
       "techStack": ["HTML", "CSS", "JavaScript", "Firebase"],
-      "image": "https://via.placeholder.com/300x200?text=BlogCMS",
+      "image": "https://images.unsplash.com/photo-1726930095303-4aac9ba8bb74?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "github": "https://github.com/user/blog-cms",
       "live": "https://blogcmsproject.netlify.app",
-      "category": "Full Stack"
-    },
-    {
-      "id": 4,
-      "title": "To-Do List",
-      "description": "A minimal to-do list with local storage support.",
-      "techStack": ["HTML", "CSS", "JavaScript"],
-      "image": "https://via.placeholder.com/300x200?text=ToDoApp",
-      "github": "https://github.com/user/todo-list",
-      "live": "https://mytodo.vercel.app",
-      "category": "Beginner"
-    },
-    {
-      "id": 5,
-      "title": "DevConnector",
-      "description": "A mini social media site for developers to connect and share portfolios.",
-      "techStack": ["React", "Node.js", "Express", "MongoDB"],
-      "image": "https://via.placeholder.com/300x200?text=DevConnector",
-      "github": "https://github.com/user/devconnector",
-      "live": "https://devconnector.live",
-      "category": "Full Stack"
-    },
-    {
-      "id": 6,
-      "title": "DevConnector",
-      "description": "A mini social media site for developers to connect and share portfolios.",
-      "techStack": ["React", "Node.js", "Express", "MongoDB"],
-      "image": "https://via.placeholder.com/300x200?text=DevConnector",
-      "github": "https://github.com/user/devconnector",
-      "live": "https://devconnector.live",
-      "category": "Full Stack"
-    },
-    {
-      "id": 7,
-      "title": "DevConnector",
-      "description": "A mini social media site for developers to connect and share portfolios.",
-      "techStack": ["React", "Node.js", "Express", "MongoDB"],
-      "image": "https://via.placeholder.com/300x200?text=DevConnector",
-      "github": "https://github.com/user/devconnector",
-      "live": "https://devconnector.live",
-      "category": "Full Stack"
-    },
-    {
-      "id": 8,
-      "title": "DevConnector",
-      "description": "A mini social media site for developers to connect and share portfolios.",
-      "techStack": ["React", "Node.js", "Express", "MongoDB"],
-      "image": "https://via.placeholder.com/300x200?text=DevConnector",
-      "github": "https://github.com/user/devconnector",
-      "live": "https://devconnector.live",
-      "category": "Full Stack"
-    },
-    {
-      "id": 9,
-      "title": "DevConnector",
-      "description": "A mini social media site for developers to connect and share portfolios.",
-      "techStack": ["React", "Node.js", "Express", "MongoDB"],
-      "image": "https://via.placeholder.com/300x200?text=DevConnector",
-      "github": "https://github.com/user/devconnector",
-      "live": "https://devconnector.live",
-      "category": "Full Stack"
-    },
-    {
-      "id": 10,
-      "title": "DevConnector",
-      "description": "A mini social media site for developers to connect and share portfolios.",
-      "techStack": ["React", "Node.js", "Express", "MongoDB"],
-      "image": "https://via.placeholder.com/300x200?text=DevConnector",
-      "github": "https://github.com/user/devconnector",
-      "live": "https://devconnector.live",
-      "category": "Full Stack"
-    },
-    {
-      "id": 11,
-      "title": "DevConnector",
-      "description": "A mini social media site for developers to connect and share portfolios.",
-      "techStack": ["React", "Node.js", "Express", "MongoDB"],
-      "image": "https://via.placeholder.com/300x200?text=DevConnector",
-      "github": "https://github.com/user/devconnector",
-      "live": "https://devconnector.live",
-      "category": "Full Stack"
-    },
-    {
-      "id": 12,
-      "title": "DevConnector",
-      "description": "A mini social media site for developers to connect and share portfolios.",
-      "techStack": ["React", "Node.js", "Express", "MongoDB"],
-      "image": "https://via.placeholder.com/300x200?text=DevConnector",
-      "github": "https://github.com/user/devconnector",
-      "live": "https://devconnector.live",
-      "category": "Full Stack"
-    },
-    {
-      "id": 13,
-      "title": "DevConnector",
-      "description": "A mini social media site for developers to connect and share portfolios.",
-      "techStack": ["React", "Node.js", "Express", "MongoDB"],
-      "image": "https://via.placeholder.com/300x200?text=DevConnector",
-      "github": "https://github.com/user/devconnector",
-      "live": "https://devconnector.live",
       "category": "Full Stack"
     }
   ]

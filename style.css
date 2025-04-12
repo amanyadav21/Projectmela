@@ -16,8 +16,8 @@ body {
   max-width: 1200px;
   margin: 40px auto 0 auto; /* top 40px and center horizontally */
   position: sticky;
-  top: 0;
-  z-index: 999;
+  /* top: 0; */
+  /* z-index: 999; */
 }
 
 /* 🔹 Navbar inside the container */
@@ -105,70 +105,83 @@ body {
 
 
 
-/* Project Card */
-.projectlist {
-  background: rgba(255, 255, 255, 0.2); /* transparent effect */
-  backdrop-filter: blur(10px); /* blur effect */
-  border-radius: 50px;
-  padding: 30px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  position: sticky;
-  top: 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
-  transition: all 0.3s ease;
+#project {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
 }
 
-/* Project Image */
-#project-img {
+#project > div {
+  background-color: white;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  padding: 1rem;
+  transition: transform 0.2s ease-in-out;
+  /* border-radius: 10px; */
+}
+
+/* #project > div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+} */
+
+.p-img {
   width: 100%;
-  max-width: 400px;
-  border-radius: 20px;
+  height: 200px;
   object-fit: cover;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
 }
 
-/* Title */
-#project-title {
-  font-size: 2rem;
+
+.hrline {
+  margin: 0.5rem 0;            /* top and bottom margin */
+  border: none;              /* remove default border */
+  border-top: 1px solid #000000; /* red horizontal line */
+  width: 100%;               /* full width line */
+}
+
+
+.p-img:hover {
+  transform: scale(1.05); /* Zoom in effect */
+}
+
+
+.p-title {
+  font-size: 1.25rem;
   font-weight: 600;
-  color: #333;
-  text-align: center;
+  margin-top: 1rem;
 }
 
-/* Description */
-#project-p {
-  font-size: 1rem;
-  color: #444;
-  text-align: center;
-  max-width: 700px;
+.p-para {
+  font-size: 0.95rem;
+  color: #4b5563;
+  margin: 0.5rem 0 1rem 0;
 }
 
-/* Button Container */
-.button-class {
+.buttondiv {
   display: flex;
-  gap: 15px;
-  margin-top: 10px;
-  flex-wrap: wrap;
+  justify-content: start;
+  gap: 0.5rem;
 }
 
-/* Buttons */
-.button-class button {
-  padding: 10px 20px;
-  background: #222;
-  color: white;
-  border: none;
-  border-radius: 25px;
-  font-size: 1rem;
+
+.gitbtn, .livebtn {
+  padding: 0.4rem 1.1rem;
+  font-size: 0.85rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: white;
   cursor: pointer;
-  transition: 0.3s ease;
+  transition: background-color 0.3s ease;
+  color: #002aff;
+  text-decoration: none;
 }
 
-.button-class button:hover {
-  background: #555;
+.gitbtn:hover, .livebtn:hover {
+  background-color: #000;
+  color: white;
 }
-
-
-
