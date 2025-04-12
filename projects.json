@@ -6,28 +6,8 @@
       "techStack": ["HTML", "CSS", "JavaScript"],
       "image": "https://plus.unsplash.com/premium_photo-1734737431107-d2bb253c5625?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "github": "https://github.com/user/portfolio",
-      "live": "https://userportfolio.netlify.app",
+      "live": "/Projects/digitalclock/index.html",
       "category": "Frontend"
-    },
-    {
-      "id": 2,
-      "title": "Weather App",
-      "description": "A weather forecast web app using OpenWeatherMap API.",
-      "techStack": ["HTML", "CSS", "JavaScript", "API"],
-      "image": "https://images.unsplash.com/photo-1742201835918-317911ef3825?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "github": "https://github.com/user/weather-app",
-      "live": "https://userweatherapp.vercel.app",
-      "category": "API"
-    },
-    {
-      "id": 3,
-      "title": "Blog CMS",
-      "description": "A basic blog content management system with admin login.",
-      "techStack": ["HTML", "CSS", "JavaScript", "Firebase"],
-      "image": "https://images.unsplash.com/photo-1726930095303-4aac9ba8bb74?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "github": "https://github.com/user/blog-cms",
-      "live": "https://blogcmsproject.netlify.app",
-      "category": "Full Stack"
     }
   ]
   
