@@ -14,7 +14,8 @@ body {
 /* 🔸 Max-width container */
 .container {
   max-width: 1200px;
-  margin: 40px auto 0 auto; /* top 40px and center horizontally */
+  margin: 40px auto 0 auto;
+  /* top 40px and center horizontally */
 }
 
 .header {
@@ -32,14 +33,15 @@ body {
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(12px);
   border-radius: 50px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
   border: 2px solid #002aff;
 
   /* Make it sticky */
   position: fixed;
-  top: 20px; 
-  z-index: 1000; /* Optional: To ensure it stays above other content */
+  top: 20px;
+  z-index: 1000;
+  /* Optional: To ensure it stays above other content */
 }
 
 .nav-li {
@@ -60,63 +62,136 @@ body {
 }
 
 
+/* Responsive text size and layout */
+@media (max-width: 768px) {
+  .nav-li {
+    font-size: 0.95rem;
+  }
+
+  .navbar {
+    width: 95%;
+    padding: 8px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-li {
+    font-size: 0.9rem;
+  }
+
+  .navbar {
+    gap: 10px;
+    width: 90%;
+    padding: 10px 15px;
+  }
+}
+
+
+
 .about-div {
-    background: white;
-    display: flex;
-    flex-direction: column;
+  background: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-h1 {
-    text-align: start;
-    border-left: 2px solid #002aff;
-    font-size: 1.2rem;
-    font-weight: 300;
-    padding-left: 10px;
-    line-height: 35px;
+  text-align: start;
+  border-left: 2px solid #002aff;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-left: 10px;
+  line-height: 35px;
 }
 
 .about-btn {
-    display: flex;
-    margin-top: 40px;
-    gap: 40px;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
+  display: flex;
+  margin-top: 40px;
+  gap: 40px;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
 }
 
-.btn1, .btn2 {
-    padding: 9px 20px;
-    border-radius: 5px;
-    border: 2px solid #002aff;
-    font-size: medium;
+.btn1,
+.btn2 {
+  padding: 9px 20px;
+  border-radius: 5px;
+  border: 2px solid #002aff;
+  font-size: medium;
 }
 
 .btn1 {
-    background-color: #002aff;
-    color: white;
-    text-decoration: underline;
+  background-color: #002aff;
+  color: white;
+  text-decoration: underline;
 }
 
 .btn2:hover {
-    background-color: #002aff;
-    color: white;
+  background-color: #002aff;
+  color: white;
 }
 
-.btn1, .btn2:hover {
-    cursor: pointer;
+.btn1,
+.btn2:hover {
+  cursor: pointer;
 }
+
+
+/* Responsive: Tablet */
+@media (max-width: 768px) {
+
+  .about-div {
+    margin: 100px 20px;
+  }
+
+  .about-h1 {
+    font-size: 1.3rem;
+    line-height: 30px;
+  }
+
+  .about-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  }
+}
+
+/* Responsive: Mobile */
+@media (max-width: 480px) {
+
+  .about-h1 {
+    font-size: 1.4rem;
+    line-height: 30px;
+    font-weight: 400;
+  }
+
+  .about-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .btn1,
+  .btn2 {
+    padding: 9px 13px;
+    font-size: medium;
+  }
+}
+
 
 .project-h1 {
-    /* font-size: x-large; */
-    font-size: 5rem;
-    /* font-weight: 900; */
-    /* font-style: italic; */
-    margin-top: 40px;
-    text-align: center;
-    /* border-bottom: 2px solid #002aff; */
-    text-decoration: underline 2px solid #002aff;
+  /* font-size: x-large; */
+  font-size: 5rem;
+  /* font-weight: 900; */
+  /* font-style: italic; */
+  margin-top: 40px;
+  text-align: center;
+  /* border-bottom: 2px solid #002aff; */
+  text-decoration: underline 2px solid #002aff;
 
-    color: rgba(3, 5, 37, 0.153);
+  color: rgba(3, 5, 37, 0.153);
 }
 
 
@@ -129,7 +204,7 @@ body {
   padding: 2rem;
 }
 
-#project > div {
+#project>div {
   background-color: white;
   border: 1px solid #000000;
   border-radius: 10px;
@@ -150,20 +225,26 @@ body {
   height: 200px;
   object-fit: cover;
   border-radius: 6px;
-  transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
+  transition: transform 0.3s ease-in-out;
+  /* Add transition for smooth effect */
 }
 
 
 .hrline {
-  margin: 0.5rem 0;            /* top and bottom margin */
-  border: none;              /* remove default border */
-  border-top: 1px solid #000000; /* red horizontal line */
-  width: 100%;               /* full width line */
+  margin: 0.5rem 0;
+  /* top and bottom margin */
+  border: none;
+  /* remove default border */
+  border-top: 1px solid #000000;
+  /* red horizontal line */
+  width: 100%;
+  /* full width line */
 }
 
 
 .p-img:hover {
-  transform: scale(1.05); /* Zoom in effect */
+  transform: scale(1.05);
+  /* Zoom in effect */
 }
 
 
@@ -186,7 +267,8 @@ body {
 }
 
 
-.gitbtn, .livebtn {
+.gitbtn,
+.livebtn {
   padding: 0.4rem 1.1rem;
   font-size: 0.85rem;
   border: 1px solid #000;
@@ -198,7 +280,8 @@ body {
   text-decoration: none;
 }
 
-.gitbtn:hover, .livebtn:hover {
+.gitbtn:hover,
+.livebtn:hover {
   background-color: #000;
   color: white;
 }
