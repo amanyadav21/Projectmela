@@ -23,7 +23,7 @@ body {
 }
 
 .navbar {
-  width: 30%;
+  width: 25%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -34,7 +34,7 @@ body {
   border-radius: 50px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   transition: all 0.3s ease-in-out;
-  border: 1px solid #002aff;
+  border: 2px solid #002aff;
 
   /* Make it sticky */
   position: fixed;
@@ -42,6 +42,11 @@ body {
   z-index: 1000; /* Optional: To ensure it stays above other content */
 }
 
+.nav-li {
+  font-size: larger;
+  font-weight: 500;
+
+}
 
 /* Optional: Hover effect */
 .navbar span:hover {
@@ -59,8 +64,8 @@ body {
 .about-h1 {
     text-align: start;
     border-left: 2px solid #002aff;
-    font-size: 1.4rem;
-    font-weight: 400;
+    font-size: 1.2rem;
+    font-weight: 300;
     padding-left: 10px;
     line-height: 35px;
 }
