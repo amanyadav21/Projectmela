@@ -2,7 +2,7 @@
     {
       "id": 1,
       "title": "Digital Clock",
-      "description": "Choose your preferred time and digitally view the current time in any major locations.",
+      "description": "Pick a time and see the current time in major cities digitally",
       "techStack": ["HTML", "CSS", "JavaScript"],
       "image": "/Projects/digitalclock/image/digital-project-image.png",
       "github": "https://github.com/amanyadav21/Projectmela/tree/main/Projects/digitalclock",
