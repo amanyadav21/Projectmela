@@ -4,8 +4,8 @@
       "title": "Portfolio Website",
       "description": "A personal portfolio website to showcase skills, projects, and contact info.",
       "techStack": ["HTML", "CSS", "JavaScript"],
-      "image": "https://plus.unsplash.com/premium_photo-1734737431107-d2bb253c5625?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "github": "https://github.com/user/portfolio",
+      "image": "/Projects/digitalclock/image/digital-project-image.png",
+      "github": "https://github.com/amanyadav21/Projectmela/tree/main/Projects/digitalclock",
       "live": "/Projects/digitalclock/index.html",
       "category": "Frontend"
     }

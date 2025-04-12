@@ -96,7 +96,7 @@ body {
 
 .about-h1 {
   text-align: start;
-  /* border-left: 2px solid #002aff; */
+  border-left: 2px solid #002aff;
   font-size: 1.2rem;
   font-weight: 300;
   padding-left: 10px;
@@ -189,9 +189,9 @@ body {
   margin-top: 40px;
   text-align: center;
   /* border-bottom: 2px solid #002aff; */
-  text-decoration: underline 2px solid #002aff;
+  /* text-decoration: underline 2px solid #002aff; */
 
-  color: rgba(3, 5, 37, 0.153);
+  color: rgb(0, 0, 0)
 }
 
 
