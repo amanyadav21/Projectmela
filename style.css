@@ -15,12 +15,13 @@ body {
 .container {
   max-width: 1200px;
   margin: 40px auto 0 auto; /* top 40px and center horizontally */
-  position: sticky;
-  /* top: 0; */
-  /* z-index: 999; */
 }
 
-/* 🔹 Navbar inside the container */
+.header {
+  display: flex;
+  justify-content: center;
+}
+
 .navbar {
   width: 30%;
   margin: 0 auto;
@@ -34,7 +35,13 @@ body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   transition: all 0.3s ease-in-out;
   border: 1px solid #002aff;
+
+  /* Make it sticky */
+  position: fixed;
+  top: 20px; 
+  z-index: 1000; /* Optional: To ensure it stays above other content */
 }
+
 
 /* Optional: Hover effect */
 .navbar span:hover {
