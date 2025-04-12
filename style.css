@@ -45,8 +45,13 @@ body {
 .nav-li {
   font-size: larger;
   font-weight: 500;
-
+  color: black;
 }
+
+.navbar a {
+  text-decoration: none;
+}
+
 
 /* Optional: Hover effect */
 .navbar span:hover {
