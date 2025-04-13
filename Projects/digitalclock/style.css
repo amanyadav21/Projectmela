@@ -17,6 +17,7 @@
 body {
     background-color: var(--bg-color);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -245,7 +246,3 @@ body {
         margin-left: 40px;
     }
 }
-
-
-
-
