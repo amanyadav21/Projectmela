@@ -34,7 +34,7 @@
       "title": "Tic-Tac-Toe",
       "description": "Add player names, show turns, and auto-detect winner on any grid!",
       "techStack": ["Reactjs","Tailwind CSS"],
-      "image": "/Projects/Tic-Tac-Toe/game/src/assets/project-image.png",
+      "image": "/Projects/Tic-Tac-Toe/game/src/assets/projectimg.png",
       "github": "https://github.com/amanyadav21/Tic-Tac-Toe",
       "live": "https://tic-tac-toe.codeupto.com/",
       "category": "Frontend"
